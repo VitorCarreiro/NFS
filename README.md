@@ -28,7 +28,7 @@ NFS Config
 
 
 
-**Now set up NFS client** 🔖
+➡️ **Now set up NFS client** ⬅️ 🔖 
 
 **Install NFS**
 
