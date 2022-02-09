@@ -40,7 +40,13 @@ NFS Config
 
 **Mount the system**
 
-mount -t nfs (Server.IP):/mnt/nfs_test/ /mnt/nfs_test/
+`mount -t nfs (Server.IP):/mnt/nfs_test/ /mnt/nfs_test/`
+
+**Do cat /etc/mtab and copy the last line**
+
+**Now go to /etc/fstab and paste the line there with ,nofail, between some words**
+
+And that is it, you should now be able to enter the folder and create files!
 
 
 
