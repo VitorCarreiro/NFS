@@ -22,7 +22,7 @@ NFS Config
 
 `exportfs -a`
 
-**Add a user to the nfs folder*-
+**Add a user to the nfs folder**
 
 `adduser ann --home /mnt/nfs_test/ann`
 
@@ -42,9 +42,9 @@ NFS Config
 
 `mount -t nfs (Server.IP):/mnt/nfs_test/ /mnt/nfs_test/`
 
-**Do cat /etc/mtab and copy the last line**
+**Do `cat /etc/mtab` and copy the last line**
 
-**Now go to /etc/fstab and paste the line there with ,nofail, between some words**
+**Now go to `nano /etc/fstab` and paste the line there with ,nofail, between some words**
 
 And that is it, you should now be able to enter the folder and create files!
 
